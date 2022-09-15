@@ -98,7 +98,7 @@ body{
     }
    .CONTAINER-2{
     padding: 30px;
-    height: 620px;
+    height: 680px;
     justify-content: center;
    }
    .CONTAINER-2A{
@@ -124,7 +124,7 @@ body{
     height: 250px;
     width: 120%;
     position: relative;
-    right: 4.2%;
+    right: 3.2%;
     bottom: 27px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.219);
 
