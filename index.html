@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/odin-lined.png" type="image/x-icon">
+  <link href="http://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
+  <link href="//db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse" rel="stylesheet" type="text/css"/>
+  <title>The Odin Project Signup Form</title>
+  <script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+  <div class="PARENT-CONTAINER">
+    <div class="CONTAINER-1">
+      <div id="BG">
+      <div class="LOGO"><img class="LOGOI" src="./images/odin-lined.png" alt=""></div>
+      <div class="LOGO-WRITE"><h1 class="LOGO-WRITEE">ODIN</h1></div>
+      </div>
+      <div class="LOGOO">
+      </div>
+    </div>
+  <div class="CONTAINER-2">
+    <div class="CONTAINER-2A">
+      <div class="CONTAINER-2A1">
+    <P>
+      <b>
+      This is not a real online service! You know you need something 
+      like this in your life to help you realize your deepest dreams.
+      Sign up <i>now</i> to get started.
+    </b>
+     </P>
+  </div>
+  <div class="CONTAINER-2A2">
+    <p>
+      <b>
+        You <i>know</i> you want to.
+    </b>
+    </p>
+  </div>
+  </div>
+    <div class="CONTAINER-2B">
+    <form method="post" action="./action.php">
+    <div class="FORMS">
+      
+        <p class="lets">
+          <b>
+          Let's do this!
+        </b>
+        </p>
+      
+      <div class="CONTAINER-2B2">
+        <div id="INPUT1"><label for="FirstNameId">FIRST NAME</label>
+        <input id="FirstNameId" type="text" onblur="NotFocus1()" onfocus="Focus1()" required /><br/></div>
+
+        <div id="INPUT2"><label for="EmailId">EMAIL</label>
+        <input id="EmailId" type="email" onblur="NotFocus2()" onfocus="Focus2()" required/><br/></div>
+
+        <div id="INPUT3"><label for="PasswordId">PASSWORD</label>
+        <input id="PasswordId" type="password" onblur="NotFocus3()" onfocus="Focus3()" onkeyup='passConfirm();' title="Password must contain: Minimum 8 characters atleast 1 Alphabet and 1 Number"  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required/><br/></div> 
+        
+      </div>
+      
+
+      <div class="CONTAINER-2B3">
+          <div id="INPUT4"><label for="LastNameId">LAST NAME</label>
+          <input id="LastNameId" type="text" onblur="NotFocus4()" onfocus="Focus4()" required/><br/></div>
+
+          <div id="INPUT5"><label for="PhoneNumber">PHONE NUMBER</label>
+          <input id="PhoneNumber" type="text" onblur="NotFocus5()" onfocus="Focus5()" required/><br/></div>
+
+          <div id="INPUT6"><label for="ConfirmPasswordId">CONFIRM PASSWORD</label>
+          <input id="ConfirmPasswordId" type="password" onblur="NotFocus6()" onfocus="Focus6()" onkeyup='passConfirm();' title="Password must contain: Minimum 8 characters atleast 1 Alphabet and 1 Number" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required/><br/></div>
+        </div>
+      </div>
+      <div class="button">
+        <input id="SubmitId" name="form" type="submit" value="Create Account"/>
+      </div>
+      <p class="log">Already have an account? <span class="log-in">Log in</span></p>
+        </form> 
+        </div>
+        <span id="message"></span>
+    </div>
+  </div>
+  <div class="credit">
+    <p>
+      Photo by <span class="halie">Halie West</span> on <span class="unsplash">Unsplash</span>
+    </p>
+  </div>
+</body>
+</html>
